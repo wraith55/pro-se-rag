@@ -1,23 +1,26 @@
 {
   "name": "pro-se-rag",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "A Next.js application that interfaces with ChatGPT for chatting functionality.",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
+  "keywords": [
+    "nextjs",
+    "chatgpt",
+    "chat",
+    "react"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.6"
-  },
-  "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "eslint": "^9",
-    "eslint-config-next": "15.1.6",
-    "@eslint/eslintrc": "^3"
+    "axios": "^0.21.1",
+    "next": "latest",
+    "openai": "^4.83.0",
+    "react": "latest",
+    "react-dom": "latest"
   }
 }
